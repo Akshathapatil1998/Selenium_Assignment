@@ -1,7 +1,5 @@
-# Selenium_Assignment
 
 
----
 
 # Selenium Automation Project - INFO 6255
 
