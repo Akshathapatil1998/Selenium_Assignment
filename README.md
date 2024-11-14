@@ -9,7 +9,7 @@ This repository contains Selenium automation test scenarios for the Northeastern
 
 - **Java JDK**: Ensure that Java JDK is installed and configured.
 - **Maven**: Install Maven for dependency management.
-- **Selenium WebDriver**: Set up ChromeDriver or an alternative WebDriver.
+- **Selenium WebDriver**: Set up ChromeDriver.
 - **Browser**: Google Chrome.
 - **ExtentReports**: Used for HTML reporting of test results.
 
