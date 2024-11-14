@@ -135,7 +135,7 @@ Each test scenario includes assertions, data-driven test inputs, and is designed
 
 ## Reporting
 
-### HTML Report: NOTE: It is recommended to remove the dependecy for the extent library and the java code before running along with test scenarios. The html report can be accessed after it is generated in the project files on the system.
+### HTML Report: It is recommended to remove the dependecy for the extent library and the java code before running along with test scenarios. The html report can be accessed after it is generated in the project files on the system.
 
 - ExtenReport can be integrated by following [https://www.youtube.com/watch?v=eF_Vb-d4kIo&t=153s]
 
