@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                    <span class="method-stats">9 methods, 7 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,7 +104,37 @@
                     <div class="method-list-content failed suite-Surefire_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testPackage.Test05" class="method navigator-link" hash-for-method="academicCalendar">academicCalendar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testPackage.Test02" class="method navigator-link" hash-for-method="canvasLogin(username, domain, password)">canvasLogin(username, domain, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testPackage.Test02" class="method navigator-link" hash-for-method="canvasLogin(patil.aksha, northeastern.edu, Suma$Aksh@12345)">canvasLogin(patil.aksha, northeastern.edu, Suma$Aksh@12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testPackage.Test03" class="method navigator-link" hash-for-method="classroomGuide">classroomGuide</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testPackage.Test01" class="method navigator-link" hash-for-method="portalLogin(username, domain, password)">portalLogin(username, domain, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="testPackage.Test01" class="method navigator-link" hash-for-method="transcriptDownload(username, domain, password)">transcriptDownload(username, domain, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testPackage.Test01" class="method navigator-link" hash-for-method="transcriptDownload(patil.aksha, northeastern.edu, Suma$Aksh@12345)">transcriptDownload(patil.aksha, northeastern.edu, Suma$Aksh@12345)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Surefire_suite -->
@@ -118,7 +148,12 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="testPackage.Test01" class="method navigator-link" hash-for-method="transcriptDownload(patil.aksha, northeastern.edu, Suma$Aksh@12345)">transcriptDownload(patil.aksha, northeastern.edu, Suma$Aksh@12345)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="testPackage.Test04" class="method navigator-link" hash-for-method="classroomGuide">classroomGuide</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testPackage.Test01" class="method navigator-link" hash-for-method="portalLogin(patil.aksha, northeastern.edu, Suma$Aksh@12345)">portalLogin(patil.aksha, northeastern.edu, Suma$Aksh@12345)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -141,21 +176,173 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="portalLogin(username, domain, password)">
+                  </a> <!-- portalLogin(username, domain, password) -->
+                  <span class="method-name">portalLogin</span>
+                  <span class="parameters">(username, domain, password)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.name: passwd (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.5&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: /var/folders/4k/4949sttn1d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54547}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54547/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa695f36f073f2646fd167464d64f5af
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at testPackage.Test01.portalLogin(Test01.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="transcriptDownload(username, domain, password)">
                   </a> <!-- transcriptDownload(username, domain, password) -->
                   <span class="method-name">transcriptDownload</span>
                   <span class="parameters">(username, domain, password)</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: Resources (tried for 30 second(s) with 500 milliseconds interval)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchFrameException: No frame element found by name or id duo_iframe
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.5&apos;, java.version: &apos;21.0.5&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:1014)
+	at testPackage.Test01.transcriptDownload(Test01.java:148)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="transcriptDownload(patil.aksha, northeastern.edu, Suma$Aksh@12345)">
+                  </a> <!-- transcriptDownload(patil.aksha, northeastern.edu, Suma$Aksh@12345) -->
+                  <span class="method-name">transcriptDownload</span>
+                  <span class="parameters">(patil.aksha, northeastern.edu, Suma$Aksh@12345)</span>
+                  <div class="stack-trace">java.nio.file.NoSuchFileException: /Users/xinyihu/Desktop/NEU/info6255/SeleniumProject/Downloads/My_Transcript.pdf
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227)
+	at java.base/java.nio.file.Files.write(Files.java:3492)
+	at testPackage.Test01.transcriptDownload(Test01.java:174)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testPackage.Test03</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="classroomGuide">
+                  </a> <!-- classroomGuide -->
+                  <span class="method-name">classroomGuide</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: #x77ea03d9972dd1d8beddb4221153afa6 &gt; div &gt; div.panel-body &gt; div.panels-container.list-group.ng-scope (tried for 60 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.5&apos;, java.version: &apos;21.0.5&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: /var/folders/4k/4949sttn1d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49240}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49240/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: aea78c267eee75557ec5239d8d1c1435
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: /var/folders/4k/4949sttn1d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54547}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54547/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa695f36f073f2646fd167464d64f5af
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at testPackage.Test01.transcriptDownload(Test01.java:254)
+	at testPackage.Test03.classroomGuide(Test03.java:72)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 ... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testPackage.Test02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="canvasLogin(username, domain, password)">
+                  </a> <!-- canvasLogin(username, domain, password) -->
+                  <span class="method-name">canvasLogin</span>
+                  <span class="parameters">(username, domain, password)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.name: passwd (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.5&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: /var/folders/4k/4949sttn1d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54569}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54569/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26c33063405d4df4e8cfa77d4e5847a6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at testPackage.Test02.canvasLogin(Test02.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="canvasLogin(patil.aksha, northeastern.edu, Suma$Aksh@12345)">
+                  </a> <!-- canvasLogin(patil.aksha, northeastern.edu, Suma$Aksh@12345) -->
+                  <span class="method-name">canvasLogin</span>
+                  <span class="parameters">(patil.aksha, northeastern.edu, Suma$Aksh@12345)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[@title=&apos;Create New Event&apos;] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.5&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: /var/folders/4k/4949sttn1d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54569}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54569/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26c33063405d4df4e8cfa77d4e5847a6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at testPackage.Test02.createEvent(Test02.java:118)
+	at testPackage.Test02.canvasLogin(Test02.java:102)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testPackage.Test05</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="academicCalendar">
+                  </a> <!-- academicCalendar -->
+                  <span class="method-name">academicCalendar</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ctl04_ctl84_ctl00_buttonAtmc&apos;]/span&quot;}
+  (Session info: chrome=130.0.6723.117)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.5&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aa695f36f073f2646fd167464d64f5af, findElement {using=xpath, value=//*[@id=&apos;ctl04_ctl84_ctl00_buttonAtmc&apos;]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: /var/folders/4k/4949sttn1d3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54547}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54547/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa695f36f073f2646fd167464d64f5af
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at testPackage.Test05.academicCalendar(Test05.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -164,14 +351,29 @@ Session ID: aea78c267eee75557ec5239d8d1c1435
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">testPackage.Test04</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="classroomGuide">
+                  </a> <!-- classroomGuide -->
+                  <span class="method-name">classroomGuide</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">testPackage.Test01</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="transcriptDownload(patil.aksha, northeastern.edu, Suma$Aksh@12345)">
-                  </a> <!-- transcriptDownload(patil.aksha, northeastern.edu, Suma$Aksh@12345) -->
-                  <span class="method-name">transcriptDownload</span>
+                  <a name="portalLogin(patil.aksha, northeastern.edu, Suma$Aksh@12345)">
+                  </a> <!-- portalLogin(patil.aksha, northeastern.edu, Suma$Aksh@12345) -->
+                  <span class="method-name">portalLogin</span>
                   <span class="parameters">(patil.aksha, northeastern.edu, Suma$Aksh@12345)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -188,7 +390,11 @@ Session ID: aea78c267eee75557ec5239d8d1c1435
 &lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;testPackage.Test02&quot;/&gt;
+      &lt;class name=&quot;testPackage.Test04&quot;/&gt;
+      &lt;class name=&quot;testPackage.Test03&quot;/&gt;
       &lt;class name=&quot;testPackage.Test01&quot;/&gt;
+      &lt;class name=&quot;testPackage.Test05&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
 &lt;/suite&gt; &lt;!-- Surefire suite --&gt;
@@ -202,7 +408,7 @@ Session ID: aea78c267eee75557ec5239d8d1c1435
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (1 class)</span>
+                <span class="test-name">Surefire test (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -228,20 +434,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'transcriptDownload')
-data.setCell(0, 2, 'testPackage.Test01')
-data.setCell(0, 3, 81722);
+data.setCell(0, 1, 'classroomGuide')
+data.setCell(0, 2, 'testPackage.Test03')
+data.setCell(0, 3, 139135);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'transcriptDownload')
-data.setCell(1, 2, 'testPackage.Test01')
-data.setCell(1, 3, 37855);
+data.setCell(1, 1, 'canvasLogin')
+data.setCell(1, 2, 'testPackage.Test02')
+data.setCell(1, 3, 88559);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'canvasLogin')
+data.setCell(2, 2, 'testPackage.Test02')
+data.setCell(2, 3, 51639);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'portalLogin')
+data.setCell(3, 2, 'testPackage.Test01')
+data.setCell(3, 3, 39897);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'classroomGuide')
+data.setCell(4, 2, 'testPackage.Test04')
+data.setCell(4, 3, 33784);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'transcriptDownload')
+data.setCell(5, 2, 'testPackage.Test01')
+data.setCell(5, 3, 33041);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'portalLogin')
+data.setCell(6, 2, 'testPackage.Test01')
+data.setCell(6, 3, 27048);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'academicCalendar')
+data.setCell(7, 2, 'testPackage.Test05')
+data.setCell(7, 3, 14517);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'transcriptDownload')
+data.setCell(8, 2, 'testPackage.Test01')
+data.setCell(8, 3, 12555);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -272,20 +506,75 @@ return data;
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.Test02</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3632 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">canvasLogin(username, domain, password)</span>
+                <span class="method-start">5856 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">canvasLogin(patil.aksha, northeastern.edu, Suma$Aksh@12345)</span>
+                <span class="method-start">57637 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.Test04</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">classroomGuide</span>
+                <span class="method-start">146212 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.Test03</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">classroomGuide</span>
+                <span class="method-start">180007 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.Test01</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">portalLogin(username, domain, password)</span>
+                <span class="method-start">319150 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">portalLogin(patil.aksha, northeastern.edu, Suma$Aksh@12345)</span>
+                <span class="method-start">359058 ms</span>
+              </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">transcriptDownload(username, domain, password)</span>
-                <span class="method-start">2895 ms</span>
+                <span class="method-start">386113 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">transcriptDownload(patil.aksha, northeastern.edu, Suma$Aksh@12345)</span>
-                <span class="method-start">40829 ms</span>
+                <span class="method-start">398674 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">122555 ms</span>
-              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.Test05</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">academicCalendar</span>
+                <span class="method-start">431726 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
