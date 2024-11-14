@@ -7,7 +7,7 @@
         <methods>
           <include name="portalLogin" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="transcriptDownload" invocation-numbers="0 1"/>
+          <include name="transcriptDownload" invocation-numbers="0"/>
         </methods>
       </class> <!-- testPackage.Test01 -->
       <class name="testPackage.Test03">
@@ -15,17 +15,6 @@
           <include name="classroomGuide"/>
         </methods>
       </class> <!-- testPackage.Test03 -->
-      <class name="testPackage.Test02">
-        <methods>
-          <include name="canvasLogin" invocation-numbers="0 1"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- testPackage.Test02 -->
-      <class name="testPackage.Test05">
-        <methods>
-          <include name="academicCalendar"/>
-        </methods>
-      </class> <!-- testPackage.Test05 -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
